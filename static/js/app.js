@@ -76,11 +76,14 @@ function options() {
     d3.json("../../samples.json").then((data) => {
         var menuOptions = data.names;
         // console.log(menuOptions);
+        var defaultName = menuOptions[0];
+        console.log(defaultName)
         var menu = d3.select("#selDataset");
         menu.append("option").text("Select ID");
         menuOptions.forEach(option => {
             menu.append("option").text(option);
         });
+        optionChanged(defaultName);
     });
 };
 // run function
