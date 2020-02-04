@@ -1,6 +1,6 @@
 
 function optionChanged(idNo) {
-    d3.json("../../samples.json").then((data) =>{
+    d3.json("https://alexandraoricchio.github.io/Interactive-Dashboard-Challenge/samples.json").then((data) =>{
         var sampleData = data.samples.filter(sample => sample.id == idNo);
         var ids = sampleData[0].otu_ids;
         var otu_ids = ids.map(id => `OTU ${id}`);
@@ -73,7 +73,7 @@ function optionChanged(idNo) {
 // create function that adds dropdown options to dropdown menu
 // based on the names from the json file sample data
 function options() {
-    d3.json("../../samples.json").then((data) => {
+    d3.json("https://alexandraoricchio.github.io/Interactive-Dashboard-Challenge/samples.json").then((data) => {
         var menuOptions = data.names;
         // console.log(menuOptions);
         var defaultName = menuOptions[0];
