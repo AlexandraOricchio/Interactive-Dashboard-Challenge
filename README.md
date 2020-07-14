@@ -10,3 +10,10 @@ Used the D3 library to read in the sample JSON data. Used Plotly to create dashb
 
 
 ![dashboard](Images/dashboard_screenshot.JPG)
+
+---
+
+#### About the Data
+Hulcr, J. et al.(2012) A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable. Retrieved from: 
+
+http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/
