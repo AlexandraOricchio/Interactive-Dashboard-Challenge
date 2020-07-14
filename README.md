@@ -7,3 +7,6 @@ The dataset reveals that a small handful of microbial species (also called opera
 ## About the Process:
 
 Used the D3 library to read in the sample JSON data. Used Plotly to create dashboard visualizations and used D3 library to make said visuals interactive based on selected test subject ID number. Created and designed webpage for interactive dashboard. Deployed my app to free static page hosting service. [Click here]( https://alexandraoricchio.github.io/Interactive-Dashboard-Challenge/) to deploy my app! 
+
+
+![dashboard](Images/dashboard_screenshot.JPG)
